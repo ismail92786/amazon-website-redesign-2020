@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-container{
+    background-color: #FEA624;
+    background: linear-gradient(to right, #FEA624, #DF8B10);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: .8em 0em;
+}
+
+.navbar-logo {
+    width: 3em;
+}
+
+.navbar-box-1{
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.navbar-box-2{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-searchbar-box{
+    width: 100%;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 1em;
+}
+
+
+
+/* Search Bar CSS */
+
+.search-form-container{
+    width: 100%;
+    margin: auto;
+}
+
+.searchbar-container{
+    display: flex;
+    margin: .5em;
+}
+
+.search-input-box{
+    width: 100%;
+}
+
+.searchbar-input{
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    -webkit-border-radius: 8px 0px 0px 8px;
+    -moz-border-radius: 8px 0px 0px 8px;
+    -ms-border-radius: 8px 0px 0px 8px;
+    -o-border-radius: 8px 0px 0px 8px;
+    width: 100%;
+    font-size: 1em;
+    padding: 1.2em;
+    color: #555555;
+}
+
+.search-button-box{
+    background:white;
+    border-radius: 0px 8px 8px 0px;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    width: 3em;
+    justify-content: center;
+}
+
+.search-button{
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding-right: 10px;
+    background-color: white;
+    border-radius:0px 8px 8px 0px;
+    -webkit-border-radius:0px 8px 8px 0px;
+    -moz-border-radius:0px 8px 8px 0px;
+    -ms-border-radius:0px 8px 8px 0px;
+    -o-border-radius:0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+.searchbar-icon{
+    color: #4d4d4d;
+    font-size: 2em;
+}
+
+.searchbar-icon:hover{
+    color: #2f2f2f;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+/* ending search bar css code */
+
+.navbar-box-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-text{
+    font-size: 1em;
+    color: white;
+}
+
+.navbar-profile-image{
+    width: 3.5em;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.navbar-icon{
+    width: 2em;
+    color: white;
+}
+
