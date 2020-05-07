@@ -2,6 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Navbar */
+
+.navbar-fix{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
 .navbar-container{
     background-color: #FEA624;
     background: linear-gradient(to right, #FEA624, #DF8B10);
@@ -11,7 +24,7 @@
 }
 
 .navbar-logo {
-    width: 3em;
+    width: 2.2em;
 }
 
 .navbar-box-1{
@@ -63,7 +76,7 @@
     -o-border-radius: 8px 0px 0px 8px;
     width: 100%;
     font-size: 1em;
-    padding: 1.2em;
+    padding: 0.8em;
     color: #555555;
 }
 
@@ -122,7 +135,7 @@
 }
 
 .navbar-profile-image{
-    width: 3.5em;
+    width: 3em;
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -131,7 +144,117 @@
 }
 
 .navbar-icon{
-    width: 2em;
+    font-size: 1.2em;
+    font-weight: lighter;
     color: white;
 }
 
+
+.bottom-navbar-container{
+    display: flex;
+    background-color: #F1F1F1;
+    padding: .1em;
+    align-items: center;
+    border: #DADADA 1px solid;
+    color: #4c4c4c;
+}
+
+.bottom-navbar-box-3{
+    display: flex;
+    justify-content: center;
+    flex-grow: 5;
+    
+}
+
+.bottom-nav-text{
+    font-size: .9em;
+}
+
+.bottom-navbar-box-3 > li {
+    list-style: none;
+    padding-left: 1em;
+    font-size: .9em;
+}
+
+.location-icon-on-nav{
+    font-size: 1.4em;
+    padding-left: 1em;
+    padding-right: .3em;
+}
+
+/* Navbar */
+
+
+.content-container{
+   display: grid;
+   grid-template-columns: 1fr  2fr 1fr;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+.profile-container{
+    background-color: #F6F6F6;
+}
+
+.profile-card-background-color{
+    background: linear-gradient(to bottom, skyblue, royalblue);
+    text-align: center;
+    height: 10em;
+}
+
+.profile-card-image{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 6em;
+    border: 5px solid #F6F6F6;
+    position: relative;
+    top: 100px;
+}
+
+.profile-card-details{
+    text-align: center;
+    position: relative;
+    top: 64px;
+    padding: 2em;
+    background-color: #F6F6F6;
+    border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -ms-border-radius: 0px 0px 8px 8px;
+    -o-border-radius: 0px 0px 8px 8px;
+}
+
+.profile-content > h1{
+        font-size: 1.2em;
+}
+
+.profile-content > p{
+        font-size: 0.9em;
+}
+
+.fa-facebook-f{
+    color: blue;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+.fa-twitter{ 
+    color: skyblue;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+.fa-youtube{
+    color: red;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+.fa-instagram{
+    color: palevioletred;
+    font-size: 1.2em;
+    padding-left: 1em;
+}
